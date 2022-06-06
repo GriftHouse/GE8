@@ -1,7 +1,7 @@
-# Welcome to CyberPunksREMIX
+# Welcome to GOBLIN EGGS
 All the code in these repos was created and explained by HashLips on the main YouTube channel.
 
-# CyberPunksREMIX minting dapp 🔥
+# GOBLIN EGGS minting dapp 🔥
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
@@ -32,21 +32,21 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
-  "CONTRACT_ADDRESS": "0xceb91787ec4c01E7F24156A9fa0a21dd435070b3",
-  "SCAN_LINK": "https://polygonscan.com/token/0xceb91787ec4c01E7F24156A9fa0a21dd435070b3",
+  "CONTRACT_ADDRESS": "0x9eE393A0d5dABF5Eb26566f4bC959e22E8Cc9A51",
+  "SCAN_LINK": "https://etherscan.io/address/0x9eE393A0d5dABF5Eb26566f4bC959e22E8Cc9A51",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
-  "NFT_NAME": "CyberPunks Evolved",
-  "SYMBOL": "CPE",
-  "MAX_SUPPLY": 10000,
-  "WEI_COST": 5000000000000000,
-  "DISPLAY_COST": 0.005,
-  "GAS_LIMIT": 285000,
+  "NFT_NAME": "GOBLIN EGGS",
+  "SYMBOL": "GEGG",
+  "MAX_SUPPLY": 4269,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 300000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/cyberpunks-evolved",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/goblin-eggs",
   "SHOW_BACKGROUND": true
 }
 ```
@@ -75,16 +75,16 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>CyberPunks REMIX</title>
-<meta name="description" content="Mint your CyberPunks" />
+<title>GOBLIN EGGS</title>
+<meta name="description" content="Mint your GOBLIN EGGS" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
 
 ```json
 {
-  "short_name": "RMX",
-  "name": "CyberPunks REMIX"
+  "short_name": "GEGG",
+  "name": "GOBLIN EGGS"
 }
 ```
 
